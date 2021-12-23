@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginManagerFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.armaghansabzclient.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.armaghansabzclient.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/signUpTwoFragment"
+        android:name="com.example.armaghansabzclient.SignUpTwoFragment"
+        android:label="SignUpTwoFragment" />
+    <fragment
+        android:id="@+id/accessFragment"
+        android:name="com.example.armaghansabzclient.AccessFragment"
+        android:label="fragment_access"
+        tools:layout="@layout/fragment_access" />
+    <fragment
+        android:id="@+id/loginManagerFragment"
+        android:name="com.example.armaghansabzclient.LoginManagerFragment"
+        android:label="LoginManagerFragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.armaghansabzclient.LoginFragment"
+        android:label="fragment_login_manager"
+        tools:layout="@layout/fragment_login_manager" >
+        <action
+            android:id="@+id/action_loginFragment_to_loginManagerFragment"
+            app:destination="@id/loginManagerFragment" />
+    </fragment>
+</navigation>
