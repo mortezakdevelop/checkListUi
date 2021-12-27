@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/drawable/accept_btn_shape.xml" value="0.17037037037037037" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/drawable/access_shape.xml" value="0.17692307692307693" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/drawable/all_gradiant_shape.xml" value="0.17692307692307693" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/drawable/button_confirm_shape.xml" value="1.29375" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/drawable/confirm_radius_shape.xml" value="0.17692307692307693" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/drawable/confirm_shape.xml" value="0.215625" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/drawable/et_login_shape.xml" value="0.215625" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/drawable/home_shape.xml" value="0.215625" />
@@ -22,7 +24,9 @@
         <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/layout/fragment_access.xml" value="0.1" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/layout/fragment_confirm.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/layout/fragment_confirm_manager.xml" value="0.1" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/layout/fragment_input_phone.xml" value="0.1" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/layout/fragment_login.xml" value="0.1" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/layout/fragment_login_manager.xml" value="0.1" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/ArmaghanSabzClient/app/src/main/res/layout/fragment_sign_up.xml" value="0.1" />

@@ -11,21 +11,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val TabLayout = findViewById<TabLayout>(R.id.tabLayout)
-        val ViewPager = findViewById<ViewPager2>(R.id.viewPager)
-        val adapter = ViewPagerAdapter(supportFragmentManager,lifecycle)
+       // val ViewPager = findViewById<ViewPager2>(R.id.viewPager)
 
-        ViewPager.adapter = adapter
-        TabLayoutMediator(TabLayout,ViewPager){tab,position ->
-            when(position){
-                0->{
-                    tab.text = "User"
-            }
-                1->{
-                    tab.text = "Manager"
-                }
-        }
-        }.attach()
+//        ViewPager.adapter = adapter
+//        TabLayoutMediator(TabLayout,ViewPager){tab,position ->
+//            when(position){
+//                0->{
+//                    tab.text = "User"
+//            }
+//                1->{
+//                    tab.text = "Manager"
+//                }
+//        }
+//        }.attach()
 
     }
 }

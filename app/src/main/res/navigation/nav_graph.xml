@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/loginManagerFragment">
+    app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/homeFragment"
@@ -36,4 +36,8 @@
             android:id="@+id/action_loginFragment_to_loginManagerFragment"
             app:destination="@id/loginManagerFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/confirmFragment"
+        android:name="com.example.armaghansabzclient.ConfirmFragment"
+        android:label="ConfirmFragment" />
 </navigation>
